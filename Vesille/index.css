@@ -1,0 +1,34 @@
+.taustakuva {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    }
+
+    video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    nav ul {
+        padding: 0%;
+        margin: 0%;
+        border: 0%;
+        color: rgba(3, 3, 55, 0.707);
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        font-size: xx-large;
+        font-family: fantasy;
+        
+    }
+
+    nav ul a {
+        margin-right: 20px;
+        text-decoration: none;
+    }
